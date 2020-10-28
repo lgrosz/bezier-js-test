@@ -2,7 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Bezier from 'bezier-js';
+//import { Bezier } from 'bezier-js';
+
 function App() {
+
+  const bezier = new Bezier(0, 0, 0, 0, 0, 0);
+  console.log(bezier);
+
   return (
     <div className="App">
       <header className="App-header">
